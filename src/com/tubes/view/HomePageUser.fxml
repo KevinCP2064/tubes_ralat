@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="149.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tubes.controller.ServiceController">
+   <children>
+      <Button layoutX="87.0" layoutY="100.0" mnemonicParsing="false" onAction="#viewHistoryServiceUser" text="Lihat Histori Service Mobil Anda" />
+      <Button layoutX="333.0" layoutY="100.0" mnemonicParsing="false" onAction="#printHistoryServiceUser" text="Cetak Histori Servis Mobil Anda" />
+      <Label contentDisplay="CENTER" layoutX="144.0" layoutY="7.0" prefHeight="47.0" prefWidth="313.0" text="       Selamat Datang Pengguna" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
